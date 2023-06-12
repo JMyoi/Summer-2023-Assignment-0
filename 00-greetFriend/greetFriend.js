@@ -1,8 +1,5 @@
-
-console.log("Hello World");
 function greetFriend(name) {
-  // Insert code here;
-  
+ return ("Hello, " + name+'!');
 }
 
 // Do not edit this line;

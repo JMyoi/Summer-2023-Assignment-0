@@ -1,8 +1,18 @@
 function titleCaseEdit(title) {
-console.log("test");
+    let Arr = title.split(' ');
+    let FinalString = undefined;
+    for(let i = 0; i<Arr.length; i++){
+        let str = Arr.at(i).at(0).toUpperCase() + Arr[i].substring(1);
+        if(FinalString!=undefined){
+         FinalString = FinalString + ' '+ str;
+        }
+        else{
+            FinalString =str;
+        }
+
+    }
+    return FinalString;
 }
-
-
 
 
 
